@@ -1,5 +1,5 @@
-NAME = reference
-SRC = main.cpp
+NAME = AnimalCatDog
+SRC = main.cpp Dog.cpp Cat.cpp Animal.cpp
 OBJ = $(SRC:.cpp=.o)
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
